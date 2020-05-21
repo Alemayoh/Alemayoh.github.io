@@ -13,6 +13,7 @@ header {
 }
 
 .contact-link>li {
+    font-size: 19px;
     display: inline;
     padding: 8px;
     list-style-type: none;
