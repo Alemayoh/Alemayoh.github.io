@@ -54,11 +54,6 @@ ul.leaf {
     list-style-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif');
 }
 
-ul.list1 {
-    list-style-type: none;
-    margin-left: auto;
-}
-
 pre {
     font-family: monospace;
 }
