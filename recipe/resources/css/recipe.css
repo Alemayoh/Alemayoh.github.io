@@ -52,6 +52,8 @@ h1 {
 
 ul.list1 {
     margin-left: auto;
+    text-align: left;
+    margin-left: auto;
     list-style-type: none;
 }
 
