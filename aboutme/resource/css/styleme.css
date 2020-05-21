@@ -7,7 +7,7 @@ body {
 
 header {
     overflow: hidden;
-    background-color: hsla(171, 64%, 30%, 0.226);
+    background-color: hsl(171 64% 30% / 0.226);
     padding: 20px 10px;
     position: relative;
 }
@@ -19,12 +19,12 @@ header {
 }
 
 #course {
-    font: 1.2em, Georgia, sans-serif;
+    font: 1.2em Georgia, sans-serif;
 }
 
 #note {
     font-style: italic;
-    color: rgba(44, 114, 4, 0.774);
+    color: rgb(44, 114, 4, 0.774);
 }
 
 ol {
@@ -47,13 +47,13 @@ strong {
 }
 
 p:nth-child(1) {
-    color: rgba(44, 114, 4, 0.774);
+    color: rgb(44, 114, 4, 0.774);
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 }
 
 p::first-letter {
-    color: rgba(8, 8, 7, 0.692);
+    color: rgb(8, 8, 7, 0.692);
     font-size: 24px;
     font-weight: bold;
     font-family: monospace;
@@ -80,7 +80,6 @@ h3 {
 
 footer {
     overflow: hidden;
-    background-color: hsla(171, 64%, 30%, 0.226);
-    padding-bottom: 20px 10px;
+    background-color: hsl(171 64% 30% / 0.226);
     text-align: center;
 }
