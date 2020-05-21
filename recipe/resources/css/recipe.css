@@ -61,5 +61,6 @@ ul.leaf {
 }
 
 pre {
+    margin-left: auto;
     font-family: monospace;
 }
