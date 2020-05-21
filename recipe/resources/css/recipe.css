@@ -8,10 +8,6 @@ body {
     font-family: Georgia, Garamond, sans-serif;
 }
 
-dd {
-    margin-left: auto;
-}
-
 a {
     text-decoration: none;
     color: #A4A400;
@@ -59,6 +55,7 @@ ul.leaf {
 }
 
 ul.list1 {
+    margin-left: auto;
     list-style-type: none;
 }
 
