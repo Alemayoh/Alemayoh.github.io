@@ -79,7 +79,7 @@ h3 {
 }
 
 footer {
+    text-align: center;
     overflow: hidden;
     background-color: hsl(171 64% 30% / 0.226);
-    text-align: center;
 }
