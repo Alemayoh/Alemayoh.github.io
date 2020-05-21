@@ -55,7 +55,8 @@ ul.leaf {
 }
 
 ul.list1 {
-    margin-left: initial;
+    margin-left: auto;
+    list-style-type: none;
 }
 
 pre {
