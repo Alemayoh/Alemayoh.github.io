@@ -50,9 +50,7 @@ h1 {
     padding: 5px;
 }
 
-ul.list1 {
-    margin-left: auto;
-    text-align: left;
+ul.list1.li {
     margin-left: auto;
     list-style-type: none;
 }
