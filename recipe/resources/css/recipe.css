@@ -50,13 +50,13 @@ h1 {
     padding: 5px;
 }
 
-ul.leaf {
-    list-style-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif');
-}
-
 ul.list1 {
     margin-left: auto;
     list-style-type: none;
+}
+
+ul.leaf {
+    list-style-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif');
 }
 
 pre {
