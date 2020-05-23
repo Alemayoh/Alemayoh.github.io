@@ -1,6 +1,6 @@
 # Alemayoh.github.io
 
-#press Edit to see in good format.
+#press Edit to see answers in a good format:
 
 Questions:-
     a.	Is the lab completed? Or what percent of the lab is completed? 
