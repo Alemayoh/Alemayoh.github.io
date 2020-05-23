@@ -1,0 +1,17 @@
+# Alemayoh.github.io
+
+#press Edit to see answers in a good format:
+
+Questions:-
+    a.	Is the lab completed? Or what percent of the lab is completed? 
+    b.	Time spent
+    c.	Major issues, new things learned?
+    d.	Any further questions and concerns etc.
+
+Answer:- 
+    a: Yes, it's completed as the instructions. 
+    b: around 2-3 hours 
+    c: placing elements with layouts as the instruction, Understanding and learning how css layout works. 
+    d: no questions, 
+
+Thank you!
