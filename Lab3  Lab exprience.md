@@ -1,4 +1,7 @@
 # Alemayoh.github.io
+
+#press Edit to see in good format.
+
 Questions:-
     a.	Is the lab completed? Or what percent of the lab is completed? 
     b.	Time spent
