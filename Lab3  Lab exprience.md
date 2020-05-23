@@ -9,9 +9,9 @@ Questions:-
     d.	Any further questions and concerns etc.
 
 Answer:- 
-    a: Yes, it's completed as the instructions and all additional features listed on the instruction are completed 
-    b: 2 hours 
-    c: Handling errors using validator. Understanding and learning new concepts of CSS. 
+    a: Yes, it's completed as the instructions. 
+    b: around 2-3 hours 
+    c: placing elements with layouts as the instruction, Understanding and learning how css layout works. 
     d: no questions, 
 
 Thank you!
