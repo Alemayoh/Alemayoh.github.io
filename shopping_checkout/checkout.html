@@ -42,16 +42,21 @@
                                     </div>
                                 </div>
                                 <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                                <input type="text" id="email" name="email" placeholder="aabrha@miu.edu" required>
+                                <input type="email" id="email" name="email" placeholder="aabrha@miu.edu" required>
                                 <label for="password"><i class="fa fa-password"></i> Password</label>
                                 <input type="text" id="password" name="password" placeholder="Enter Password" required>
                                 <label for="password"><i class="fa fa-password"></i> Confirm Password</label>
                                 <input type="text" id="confirmpassword" name="confirmpassword" placeholder="Confirm your password Password" required>
                                 <label for="phonenumber"><i class="fa fa-phone"></i> Phone number</label>
-                                <input type="text" id="phonenumber" name="phonenumber" placeholder="641-819-1206">
+                                <input type="tel" id="phonenumber" name="phonenumber" placeholder="641-819-1206">
                                 <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
                                 <input type="text" id="adr" name="address" placeholder="1000 N 4th st.">
-
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="dob"> Dateof Birth</label>
+                                        <input type="date" id="dob" name="dob" placeholder="01/23/1997">
+                                    </div>
+                                </div>
                                 <div class="row">
                                     <div class="col-50">
                                         <label for="city"> City</label>
@@ -59,7 +64,7 @@
                                     </div>
                                     <div class="col-50">
                                         <label for="zip">SSN</label>
-                                        <input type="text" id="snn" name="zip" placeholder="111-222-3333" required>
+                                        <input pattern="\d{3}[\-]\d{2}[\-]\d{4}" id="snn" name="ssn" placeholder="111-222-3333" required>
                                     </div>
                                 </div>
 
@@ -70,7 +75,7 @@
                                     </div>
                                     <div class="col-50">
                                         <label for="zip">Zip</label>
-                                        <input type="text" id="zip" name="zip" placeholder="52557" required>
+                                        <input type="number" id="zip" name="zip" placeholder="52557" required>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -126,7 +131,7 @@
                                 <label for="fullname"><i class="fa fa-user"></i> Full Name</label>
                                 <input type="text" id="fullname" name="fullname" placeholder="Alemayoh Abrha">
                                 <label for="myemail"><i class="fa fa-envelope"></i> Email</label>
-                                <input type="text" id="myemail" name="myemail" placeholder="aabrha@miu.edu" required>
+                                <input type="email" id="myemail" name="myemail" placeholder="aabrha@miu.edu" required>
                                 <label for="addres"><i class="fa fa-address-card-o"></i> Address</label>
                                 <input type="text" id="addres" name="myaddress" placeholder="1000 N 4th St. ">
                                 <label for="mycity"><i class="fa fa-institution"></i> City</label>
@@ -139,7 +144,7 @@
                                     </div>
                                     <div class="col-50">
                                         <label for="myzip">Zip</label>
-                                        <input type="text" id="myzip" name="myzip" placeholder="52557" required>
+                                        <input type="number" id="myzip" name="myzip" placeholder="52557" required>
                                     </div>
                                 </div>
                             </div>
@@ -156,18 +161,18 @@
                                 <label for="cname">Name on Card</label>
                                 <input type="text" id="cname" name="cardname" placeholder="Alemayoh S. Abrha" required>
                                 <label for="ccnum">Credit card number</label>
-                                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+                                <input type="number" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
                                 <label for="expmonth">Exp Month</label>
-                                <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
+                                <input type="date" id="expmonth" name="expmonth" placeholder="04" required>
 
                                 <div class="row">
                                     <div class="col-50">
                                         <label for="expyear">Exp Year</label>
-                                        <input type="text" id="expyear" name="expyear" placeholder="2023" required>
+                                        <input type="date" id="expyear" name="expyear" placeholder="23" required>
                                     </div>
                                     <div class="col-50">
                                         <label for="cvv">CVV</label>
-                                        <input type="text" id="cvv" name="cvv" placeholder="321" required>
+                                        <input type="number" min="1000" max="9999" id="cvv" name="cvv" placeholder="321" required>
                                     </div>
                                 </div>
                             </div>
@@ -191,7 +196,7 @@
                                     <label for="billingfullname"><i class="fa fa-user"></i> Full Name</label>
                                     <input type="text" id="billingfullname" name="billingfullname" placeholder="Alemayoh Abrha">
                                     <label for="billingemail"><i class="fa fa-envelope"></i> Email</label>
-                                    <input type="text" id="billingemail" name="email" placeholder="aabrha@miu.edu" required>
+                                    <input type="email" id="billingemail" name="email" placeholder="aabrha@miu.edu" required>
                                     <label for="billingaddres"><i class="fa fa-address-card-o"></i> Address</label>
                                     <input type="text" id="billingaddres" name="addres" placeholder="1000 N 4th St. ">
                                     <label for="billingcity"><i class="fa fa-institution"></i> City</label>
@@ -204,7 +209,7 @@
                                         </div>
                                         <div class="col-50">
                                             <label for="billingzip">Zip</label>
-                                            <input type="text" id="billingzip" name="zip" placeholder="52557" required>
+                                            <input type="number" min="0000" max="99999" id="billingzip" name="zip" placeholder="52557" required>
                                         </div>
                                     </div>
                                     <div class="row">
