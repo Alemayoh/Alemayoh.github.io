@@ -90,7 +90,7 @@ input[type=text] {
 input[type=number] {
     width: 100%;
     margin-bottom: 30px;
-    padding: 12px;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
@@ -98,7 +98,7 @@ input[type=number] {
 input[type=email] {
     width: 100%;
     margin-bottom: 30px;
-    padding: 12px;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
