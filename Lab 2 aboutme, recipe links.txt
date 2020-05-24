@@ -1,0 +1,22 @@
+
+Name: Alemayoh Abrha     ID_No: 611143 
+
+Lab2:
+ Here below are the links for both Aboutme and Recipe:
+
+1. About_me Page:
+              https://alemayoh.github.io/aboutme/aboutme.html
+    
+       
+2. Recipe page: 
+              https://alemayoh.github.io/recipe/pie.html 
+ 
+
+Note: You can also navigate the "about_me" and "recipe" pages from the first Lab1 Assignment "home page": here is the link for my home page: 
+              https://alemayoh.github.io/index.html
+
+Note: All of my source codes, and my lab exprience for lab1, lab2 are listed on the following link.                          
+               https://github.com/Alemayoh/Alemayoh.github.io
+
+     
+		Thank you!
