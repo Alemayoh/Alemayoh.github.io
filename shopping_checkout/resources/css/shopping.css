@@ -90,7 +90,7 @@ input[type=text] {
 input[type=number] {
     width: 100%;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
@@ -98,7 +98,7 @@ input[type=number] {
 input[type=date] {
     width: 100%;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
@@ -106,7 +106,7 @@ input[type=date] {
 input[type=year] {
     width: 100%;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
@@ -114,7 +114,7 @@ input[type=year] {
 input[type=email] {
     width: 100%;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
