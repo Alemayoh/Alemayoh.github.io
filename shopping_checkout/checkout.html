@@ -13,22 +13,19 @@
 
 <body>
     <header>
-        <h3>
-            <ul class="contact-about">
-                <li><a href="../shopping_checkout/checkout.html"> Shopping</a></li>
-                <li><a href="../spec/tmnt.html"> Spec</a></li>
-                <li><a href="../recipe/pie.html"> Recipe</a></li>
-                <li><a href="aboutme.html"> About me </a></li>
-                <li><a href="../index.html"> Home</a></li>
-            </ul>
-        </h3>
+        <ul class="contact-about">
+            <li><a href="../shopping_checkout/checkout.html"> Shopping</a></li>
+            <li><a href="../spec/tmnt.html"> Spec</a></li>
+            <li><a href="../recipe/pie.html"> Recipe</a></li>
+            <li><a href="aboutme.html"> About me </a></li>
+            <li><a href="../index.html"> Home</a></li>
+        </ul>
         <h2>Online Shopping Form</h2>
-
     </header>
     <div class="row">
         <div class="col-75">
             <div class="container">
-                <form action="" method="POST">
+                <form action="/shopping_checkout/checkout.html" method="POST">
                     <fieldset class="fieldset">
                         <legend> <strong>Your Personal Detail</strong></legend>
                         <div class="row">
@@ -49,7 +46,7 @@
                                 <label for="password"><i class="fa fa-password"></i> Password</label>
                                 <input type="text" id="password" name="password" placeholder="Enter Password" required>
                                 <label for="password"><i class="fa fa-password"></i> Confirm Password</label>
-                                <input type="text" id="password" name="password" placeholder="Confirm your password Password" required>
+                                <input type="text" id="confirmpassword" name="confirmpassword" placeholder="Confirm your password Password" required>
                                 <label for="phonenumber"><i class="fa fa-phone"></i> Phone number</label>
                                 <input type="text" id="phonenumber" name="phonenumber" placeholder="641-819-1206">
                                 <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
@@ -97,8 +94,8 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-75">
-                                        <label for="fname"><i class="fa fa-user"></i> User Name</label>
-                                        <input type="text" id="fname" name="firstname" placeholder="Enter User Name">
+                                        <label for="username"><i class="fa fa-user"></i> User Name</label>
+                                        <input type="text" id="username" name="username" placeholder="Enter User Name">
                                         <label for="password"><i class="fa fa-password"></i> Password</label>
                                         <input type="text" id="password" name="password" placeholder="Enter Password" required>
                                         <div class="row">
@@ -126,23 +123,23 @@
                         <div class="row">
                             <div class="col-50">
                                 <h3>Billing Address</h3>
-                                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                                <input type="text" id="fname" name="firstname" placeholder="Alemayoh Abrha">
-                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                                <input type="text" id="email" name="email" placeholder="aabrha@miu.edu" required>
-                                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                                <input type="text" id="adr" name="address" placeholder="1000 N 4th St. ">
-                                <label for="city"><i class="fa fa-institution"></i> City</label>
-                                <input type="text" id="city" name="city" placeholder="Fairfield">
+                                <label for="fullname"><i class="fa fa-user"></i> Full Name</label>
+                                <input type="text" id="fullname" name="fullname" placeholder="Alemayoh Abrha">
+                                <label for="myemail"><i class="fa fa-envelope"></i> Email</label>
+                                <input type="text" id="myemail" name="myemail" placeholder="aabrha@miu.edu" required>
+                                <label for="addres"><i class="fa fa-address-card-o"></i> Address</label>
+                                <input type="text" id="addres" name="myaddress" placeholder="1000 N 4th St. ">
+                                <label for="mycity"><i class="fa fa-institution"></i> City</label>
+                                <input type="text" id="mycity" name="mycity" placeholder="Fairfield">
 
                                 <div class="row">
                                     <div class="col-50">
-                                        <label for="state">State</label>
-                                        <input type="text" id="state" name="state" placeholder="IA">
+                                        <label for="mystate">State</label>
+                                        <input type="text" id="mystate" name="mystate" placeholder="IA">
                                     </div>
                                     <div class="col-50">
-                                        <label for="zip">Zip</label>
-                                        <input type="text" id="zip" name="zip" placeholder="52557" required>
+                                        <label for="myzip">Zip</label>
+                                        <input type="text" id="myzip" name="myzip" placeholder="52557" required>
                                     </div>
                                 </div>
                             </div>
@@ -191,23 +188,23 @@
                             <div class="row">
                                 <div class="col-50">
                                     <h3>Shipping Address</h3>
-                                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                                    <input type="text" id="fname" name="firstname" placeholder="Alemayoh Abrha">
-                                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                                    <input type="text" id="email" name="email" placeholder="aabrha@miu.edu" required>
-                                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                                    <input type="text" id="adr" name="address" placeholder="1000 N 4th St. ">
-                                    <label for="city"><i class="fa fa-institution"></i> City</label>
-                                    <input type="text" id="city" name="city" placeholder="Fairfield">
+                                    <label for="billingfullname"><i class="fa fa-user"></i> Full Name</label>
+                                    <input type="text" id="billingfullname" name="billingfullname" placeholder="Alemayoh Abrha">
+                                    <label for="billingemail"><i class="fa fa-envelope"></i> Email</label>
+                                    <input type="text" id="billingemail" name="email" placeholder="aabrha@miu.edu" required>
+                                    <label for="billingaddres"><i class="fa fa-address-card-o"></i> Address</label>
+                                    <input type="text" id="billingaddres" name="addres" placeholder="1000 N 4th St. ">
+                                    <label for="billingcity"><i class="fa fa-institution"></i> City</label>
+                                    <input type="text" id="billingcity" name="billingcity" placeholder="Fairfield">
 
                                     <div class="row">
                                         <div class="col-50">
-                                            <label for="state">State</label>
-                                            <input type="text" id="state" name="state" placeholder="IA">
+                                            <label for="billingstate">State</label>
+                                            <input type="text" id="billingstate" name="state" placeholder="IA">
                                         </div>
                                         <div class="col-50">
-                                            <label for="zip">Zip</label>
-                                            <input type="text" id="zip" name="zip" placeholder="52557" required>
+                                            <label for="billingzip">Zip</label>
+                                            <input type="text" id="billingzip" name="zip" placeholder="52557" required>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -227,24 +224,35 @@
                                         <p>
                                             <h3> TERMS OF USE</h3>This Agreement contains the terms and conditions that apply to an individual's or an entity's participation in the Amazon Advantage program ("Advantage").
                                             <ol class="terms">
-                                                <li>General Terms:</li> In this Agreement, "we", "our", "us", and "Amazon.com" mean Amazon Fulfillment Services, Inc., and its affiliates and "you" or "your" means you the applicant. "Product"means any product
-                                                that you register to include in Advantage. In Advantage, we pay you for each unit of Product that you ship to us after it is sold to a customer. Your participation in Advantage is governed by this Membership
-                                                Agreement, the Instructions and Rules and the terms, conditions, policies, guidelines, and other information on the Amazon.com website, each of which may be modified from time to time. In the event of any
-                                                conflicts between any of this information, the terms of this Agreement control your participation.
-                                                <li>Scope</li> Amazon.com may sell the Products through any online or physical point of presence through which it or its affiliates offer, advertise or merchandise the Products. Currently, Advantage is limited
-                                                to Products shipped to and from U.S. fulfillment centers.
-                                                <li>Enrollment in the Program</li> In order to enroll in the Program, you must submit a complete Program application, available here, and identify at least one Product for inclusion in Advantage. We will evaluate
-                                                your application and notify you via email of its acceptance or rejection (which is in our discretion).
-                                                <li>Operating Requirements</li> Detailed requirements regarding ordering, inventory maintenance,shipping, returns and other aspects of the Program are contained in the Instructions and Rules. Failure to comply
-                                                with any of the requirements may result in additional handling fees charged to your account, as explained in the Instructions and Rules.
-                                                <li>Risk of Loss </li> The risk of loss for each Product will transfer to us only when we accept the Product. You will be solely responsible for any loss of or damage to Product units that occurs prior to such
-                                                acceptance. Each accepted Product will be stored by us or on our behalf until we purchase the Product from you, we return the Product to you, we destroy or liquidate the Product (as described in paragraph
-                                                6), or this Agreement is terminated. In the case of loss of or damage to your Products while stored by us or on our behalf, our liability will be limited to the price that we agreed to pay to you for such
-                                                Products at the time of our order.
-                                                <li>Rejection</li> We may reject any Product you send to us that is defective, damaged, overage (meaning that we did not order it from you), not properly registered with Advantage, lacking a bar code, or otherwise
-                                                fails to meet the requirements specified in the Instructions and Rules. At our discretion, rejected Products will either be (a) returned to you at your expense, and you authorize us to charge your freight
-                                                account for such returns, or to withhold such shipping charge from payments due to you under this Program; or, (b) destroyed, liquidated or otherwise disposed of without compensation to you.
-
+                                                <li>General Terms:</li>
+                                                <p> In this Agreement, "we", "our", "us", and "Amazon.com" mean Amazon Fulfillment Services, Inc., and its affiliates and "you" or "your" means you the applicant. "Product"means any product that you register
+                                                    to include in Advantage. In Advantage, we pay you for each unit of Product that you ship to us after it is sold to a customer. Your participation in Advantage is governed by this Membership Agreement,
+                                                    the Instructions and Rules and the terms, conditions, policies, guidelines, and other information on the Amazon.com website, each of which may be modified from time to time. In the event of any conflicts
+                                                    between any of this information, the terms of this Agreement control your participation.
+                                                </p>
+                                                <li>Scope</li>
+                                                <p> Amazon.com may sell the Products through any online or physical point of presence through which it or its affiliates offer, advertise or merchandise the Products. Currently, Advantage is limited to Products
+                                                    shipped to and from U.S. fulfillment centers.
+                                                </p>
+                                                <li>Enrollment in the Program</li>
+                                                <p>In order to enroll in the Program, you must submit a complete Program application, available here, and identify at least one Product for inclusion in Advantage. We will evaluate your application and notify
+                                                    you via email of its acceptance or rejection (which is in our discretion).
+                                                </p>
+                                                <li>Operating Requirements</li>
+                                                <p>Detailed requirements regarding ordering, inventory maintenance,shipping, returns and other aspects of the Program are contained in the Instructions and Rules. Failure to comply with any of the requirements
+                                                    may result in additional handling fees charged to your account, as explained in the Instructions and Rules.
+                                                </p>
+                                                <li>Risk of Loss </li>
+                                                <p> The risk of loss for each Product will transfer to us only when we accept the Product. You will be solely responsible for any loss of or damage to Product units that occurs prior to such acceptance. Each
+                                                    accepted Product will be stored by us or on our behalf until we purchase the Product from you, we return the Product to you, we destroy or liquidate the Product (as described in paragraph 6), or this
+                                                    Agreement is terminated. In the case of loss of or damage to your Products while stored by us or on our behalf, our liability will be limited to the price that we agreed to pay to you for such Products
+                                                    at the time of our order.
+                                                </p>
+                                                <li>Rejection</li>
+                                                <p> We may reject any Product you send to us that is defective, damaged, overage (meaning that we did not order it from you), not properly registered with Advantage, lacking a bar code, or otherwise fails to
+                                                    meet the requirements specified in the Instructions and Rules. At our discretion, rejected Products will either be (a) returned to you at your expense, and you authorize us to charge your freight account
+                                                    for such returns, or to withhold such shipping charge from payments due to you under this Program; or, (b) destroyed, liquidated or otherwise disposed of without compensation to you.
+                                                </p>
                                             </ol>
                                         </p>
                                     </div>
@@ -263,14 +271,12 @@
                     </fieldset>
                 </form>
                 <div class="validators">
-                    <p>
-                        <a href="https://validator.w3.org/check?uri=referer">
-                            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="Validate" width="70" height="40" />
-                        </a>
+                    <a href="https://validator.w3.org/check?uri=referer">
+                        <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="Validate" width="70" height="40" />
+                    </a>
 
-                        <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="Valid CSS!" width="70" height="41" /></a>
-                    </p>
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                        <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="Valid CSS!" width="70" height="41" /></a>
                 </div>
             </div>
         </div>
