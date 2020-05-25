@@ -45,3 +45,14 @@ footer {
     padding-bottom: 20px 10px;
     text-align: center;
 }
+
+
+/* Avatar image */
+
+img.profile {
+    border-radius: 50%;
+}
+
+.col-50 #myFile {
+    float: right;
+}
