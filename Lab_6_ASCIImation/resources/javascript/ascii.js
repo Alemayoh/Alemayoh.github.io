@@ -12,7 +12,7 @@ var interval; // an interval object.
 var speed = 250; // interval delay for the animation, initially set to normal.
 var size; // font size of the output, initially set to medium by the css file.
 var heart;
-var audio = new Audio('Dance - Royalty.mp3');
+var audio = new Audio('Dance_Royalty.mp3');
 window.onload = pageLoad;
 audio.playbackRate = 0.5;
 
