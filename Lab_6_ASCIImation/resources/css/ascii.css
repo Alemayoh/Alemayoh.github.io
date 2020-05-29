@@ -1,0 +1,47 @@
+/*
+	Alemayoh Abrha, ID_No: 611143
+	CS472 May 2020
+	Maharishi International University
+	Lab 6: Ascii Anamination
+*/
+
+body {
+    background-color: #CCCCFF;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32pt;
+    margin: 0;
+}
+
+textarea {
+    font-family: monospace;
+    font-size: 12pt;
+    height: 400px;
+    width: 90%;
+}
+
+fieldset {
+    border: 5px solid black;
+    border-radius: 10px;
+    display: inline;
+    vertical-align: top;
+}
+
+button,
+select {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+p {
+    text-align: right;
+}
+
+audio {
+    display: none;
+}

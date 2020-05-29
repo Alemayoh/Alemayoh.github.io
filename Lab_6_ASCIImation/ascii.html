@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+	Alemayoh Abrha, ID_No: 611143
+	CS472 May 2020
+	Maharishi International University
+	Lab 6: Ascii Anamination
+-->
+<html lang="en">
+
+<head>
+    <title>ASCIImation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="resources/css/ascii.css" type="text/css" rel="stylesheet" />
+    <script src="resources/javascript/ascii.js" type="text/javascript"></script>
+    <script src="resources/javascript/animations.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <h1>CS472: ASCII Animation Viewer</h1>
+    <textarea id="mytextarea" rows="20" cols="80"></textarea>
+    <div>
+        <fieldset>
+            <legend>Play Controls:</legend>
+            <button id="startButton">Start</button>
+            <button id="stopButton">Stop</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Animations:</legend>
+            <select id="animation">
+                <option selected="selected" value="blank">Blank</option>
+					<option value="exercise">Exercise</option>
+					<option value="juggler">Juggler</option>
+					<option value="bike">Bike</option>
+					<option value="dive">Dive</option>
+					<option value="custom">Custom</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Size:</legend>
+            <select id="size">
+					<option value="7pt">Tiny</option>
+					<option value="10pt">Small</option>
+					<option selected="selected" value="12pt">Medium</option>
+					<option value="16pt">Large</option>
+					<option value="24pt">Extra Large</option>
+					<option value="32pt">XXL</option>
+				</select>
+        </fieldset>
+        <fieldset>
+            <legend>Speed:</legend>
+            <input type="checkbox" id="speed" value="50">
+            <label for="turbo">Turbo</label>
+        </fieldset>
+    </div>
+
+    <audio controls>
+        <source src="Dance - Royalty.mp3" type="audio/mp3" id="myaudio">
+  </audio>
+
+    <div id="validate">
+        <p>
+            <a href="http://validator.w3.org/check?uri=referer"><img src="resources/images/w3c-html.png" alt="HTML Validator" /></a><br />
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="resources/images/w3c-css.png" alt="CSS Validator" /></a><br />
+            <a href="#"><img src="resources/images/w3c-js.jpg" alt="JS Validator" /></a>
+        </p>
+    </div>
+</body>
+
+</html>
