@@ -29,10 +29,11 @@ loadPage = function() {
         };
     })();
     createButton.onclick = () => {
+
         const CreateAccount = new MyModule.create();
         accountInfoList.push(CreateAccount);
         if (CreateAccount) {
-            display.value = display.value + "Account Name:" + CreateAccount.userAccountName +
+            textarea.value = textarea.value + "Account Name:" + CreateAccount.userAccountName +
                 "Balance:" + CreateAccount.userBalance + "\n";
         }
         userAccountName.value = "";
