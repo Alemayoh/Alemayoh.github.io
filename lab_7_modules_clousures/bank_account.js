@@ -1,8 +1,9 @@
-loadPage = function() {
+window.onload = function() {
     const accountName = document.getElementById("accountName");
     const deposit = document.getElementById("deposit");
     const createButton = document.getElementById("createButton");
     const textarea = document.getElementById("textarea");
+
     let accountInfoList = [];
 
     const MyModule = (function() {
@@ -12,35 +13,36 @@ loadPage = function() {
         const create = function() {
             //pattern
             const validAcc_Name = /^[A-Za-z]/;
-            const validdeposit = /\-?\d+\.\d{2}$/;
-            if (validAcc_Name.test(accountName.value) && (validAcc_Name.test(deposit.value))) {
-                acc_type = accountName;
-                balance = deposit;
+            const validDeposit = /(-?[0-9]+(\.[0-9]+)?)/;
+            if ((validAcc_Name.test(accountName.value)) && (validDeposit.test(deposit.value))) {
+                acc_type = accountName.value;
+                balance = deposit.value;
                 return {
-                    userAccountName = acc_type,
-                    userBalance = balance
+                    userAccountName: acc_type,
+                    userBalance: balance
                 }
+
             } else {
                 return null;
             }
         }
         return {
-            AccountCreator = create
+            AccountCreator: create
         };
     })();
+
     createButton.onclick = () => {
 
-        const CreateAccount = new MyModule.create();
-        accountInfoList.push(CreateAccount);
+        const CreateAccount = MyModule.AccountCreator();
         if (CreateAccount) {
-            textarea.value = textarea.value + "Account Name:" + CreateAccount.userAccountName +
-                "Balance:" + CreateAccount.userBalance + "\n";
+            accountInfoList.push(CreateAccount);
+            textarea.value = textarea.value + " Account name: " + CreateAccount.userAccountName +
+                "\tBalance: " + CreateAccount.userBalance + "\n";
+
         }
-        userAccountName.value = "";
-        userBalance.value = "";
-        userAccountName.focus();
+        accountName.value = "";
+        deposit.value = "";
+        accountName.focus();
+    };
 
-    }
-
-}
-window.onload = loadPage;
+};
