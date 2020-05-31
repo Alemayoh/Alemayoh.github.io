@@ -5,3 +5,15 @@ body {
 .bank_acc {
     padding: 3px;
 }
+
+a {
+    text-decoration: none;
+    font-size: 19px;
+    font-style: italic;
+    color: rgb(14, 17, 187);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
