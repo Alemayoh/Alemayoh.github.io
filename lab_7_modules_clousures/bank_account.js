@@ -31,8 +31,9 @@ loadPage = function() {
     createButton.onclick = () => {
         const CreateAccount = new MyModule.create();
         if (CreateAccount) {
-            display.value = accountInfoList.push(display.value + "Account Name:" + CreateAccount.acc_type +
-                "Balance:" + CreateAccount.balance)
+            display.value = display.value + "Account Name:" + CreateAccount.acc_type +
+                "Balance:" + CreateAccount.balance;
+            accountInfoList.push(CreateAccount);
         }
 
     }
