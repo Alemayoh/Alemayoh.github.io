@@ -1,3 +1,11 @@
+/*
+	Alemayoh Abrha, ID_No: 611143
+	CS472 May 2020
+	Maharishi International University
+	Lab 7: Creating Bank Account
+*/
+
+
 window.onload = function() {
     const accountName = document.getElementById("accountName");
     const deposit = document.getElementById("deposit");
