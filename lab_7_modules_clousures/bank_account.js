@@ -30,11 +30,14 @@ loadPage = function() {
     })();
     createButton.onclick = () => {
         const CreateAccount = new MyModule.create();
+        accountInfoList.push(CreateAccount);
         if (CreateAccount) {
-            display.value = display.value + "Account Name:" + CreateAccount.acc_type +
-                "Balance:" + CreateAccount.balance;
-            accountInfoList.push(CreateAccount);
+            display.value = display.value + "Account Name:" + CreateAccount.userAccountName +
+                "Balance:" + CreateAccount.userBalance + "\n";
         }
+        userAccountName.value = "";
+        userBalance.value = "";
+        userAccountName.focus();
 
     }
 

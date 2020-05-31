@@ -108,3 +108,11 @@ function changeSize() {
     var size = document.getElementById("size").value;
     document.getElementById("mytextarea").style.fontSize = size;
 }
+
+
+
+
+// //pattern
+// const validAcc_Name = /^[A-Za-z]/;
+// const validdeposit = /\-?\d+\.\d{2}$/;
+// if (validAcc_Name.test(accountName.value) && (validAcc_Name.test(deposit.value))) {
