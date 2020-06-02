@@ -5,9 +5,9 @@
 	Lab 8: Assignment
 */
 
-.homelink a {
-    font-size: 19px;
+.homelink li {
+    font-size: 18px;
     font-style: italic;
-    color: rgb(14, 17, 187);
+    color: rgb(52, 179, 238);
     font-weight: bold;
 }
