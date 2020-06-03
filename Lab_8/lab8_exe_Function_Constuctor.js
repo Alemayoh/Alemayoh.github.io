@@ -16,8 +16,7 @@
         Bicycle.call(this);
         this.gear = 1;
     }
-
-    //Show the inheritance heren below
+    // Here below shows the inheritance
     MountainBicycle.prototype = Object.create(Bicycle.prototype);
     MountainBicycle.prototype.constructor = MountainBicycle;
 

@@ -4,9 +4,6 @@
     var init = function() {
         document.getElementById("start").onclick = start;
     };
-    var bicyclePrototype, mountainBikePrototype;
-    // Question_1
-
     var createBicyclePrototye = function() {
         return {
             speed: 0,
@@ -18,19 +15,18 @@
             }
         };
     };
-
-    //Question_2
     const createMountainBikeProtoype = function(proto_type) {
 
         var bikeObj = Object.create(proto_type);
-        bikeObj.gear = 1;
+        bikeObj.gear = 1; //own property
         bikeObj.setGear = function(newValue) { //mountain bike method
             this.gear = newValue;
         };
         return bikeObj;
     };
 
-    //Question_3
+    var bicyclePrototype, mountainBikePrototype;
+
     var start = function() {
         bicyclePrototype = createBicyclePrototye();
         mountainBikePrototype = createMountainBikeProtoype(bicyclePrototype);
@@ -50,15 +46,6 @@
         console.log(mountainBikePrototype.speed);
         console.log(mountainBikePrototype.hasOwnProperty('speed'));
 
-
-        var bicycle = Object.create(bicyclePrototype);
-        bicycle.speed = 12;
-        bicycle.speedUp = 15;
-        console.log(bicycle.speed);
-
-        var mountainBike = Object.create(mountainBikePrototype);
-        mountainBike.setGear(4);
-        console.log(mountainBike.gear);
     };
     window.onload = init;
 })();
