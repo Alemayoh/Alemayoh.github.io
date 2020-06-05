@@ -20,6 +20,9 @@ header {
     list-style-type: none;
 }
 
+
+/* vertical separation between navigation bar links*/
+
 .contact-link>li {
     font-size: 14px;
     display: inline;
