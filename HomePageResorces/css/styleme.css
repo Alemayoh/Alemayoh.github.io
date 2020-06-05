@@ -15,10 +15,12 @@ header {
 
 .contact-link>li {
     font-size: 19px;
-    display: inline;
+    display: block;
     padding: 8px;
     list-style-type: none;
-    padding-top: 8px;
+    content: "|";
+    float: right;
+    color: #fff;
 }
 
 a {
