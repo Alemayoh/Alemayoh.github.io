@@ -18,6 +18,11 @@ header {
     display: inline;
     padding: 8px;
     list-style-type: none;
+}
+
+.contact-link>li {
+    font-size: 16px;
+    display: inline;
     border-right: 1px solid #f5eaeae3;
 }
 
