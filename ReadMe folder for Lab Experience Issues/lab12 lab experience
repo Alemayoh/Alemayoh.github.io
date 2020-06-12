@@ -1,0 +1,9 @@
+Question 4: validator link will not work when you try locally in your machine. Why?
+     - It will not work, because the link-> https://validator.w3.org/check/referer: is refering for uri address which is the http address and then it will expect uri address. So, it can not work locally from our machine. 
+     But if our project is in our local machine we have to upload our file to the W3c validator to make validation or we have to install manually our own instance of w3c marker validator.          
+
+Question 6:
+      a: Yes, it's completed 
+      b: 20 minutes
+      c: Understanding and learning new concepts of HTML5
+      d: no questions
