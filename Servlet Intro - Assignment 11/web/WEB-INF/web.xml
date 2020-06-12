@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>myservlet</servlet-name>
-        <servlet-class>HelloServlet</servlet-class>
+        <servlet-class>SupportServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -16,15 +16,13 @@
 
     <servlet>
         <servlet-name>mynextservlet</servlet-name>
-        <servlet-class>HelloServlet</servlet-class>
+        <servlet-class>SupportServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>mynextservlet</servlet-name>
         <url-pattern>/simple</url-pattern>
     </servlet-mapping>
-
-
     <servlet>
         <servlet-name>supportservlet</servlet-name>
         <servlet-class>SupportServlet</servlet-class>

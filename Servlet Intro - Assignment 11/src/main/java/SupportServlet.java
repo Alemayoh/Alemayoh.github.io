@@ -20,7 +20,7 @@ public class SupportServlet extends HttpServlet {
         out.print("Problem:");
         out.print("<input type  = 'text' name = 'problem'><br />");
         out.print("Problem description");
-        out.print("<textarea name = 'problemarea' cols = '40' rows = '8'></textarea><br />");
+        out.print("<textarea name = 'problem area' cols = '40' rows = '8'></textarea><br />");
         out.print("<input type = 'submit' value = 'Help' />");
         out.print("</form>");
         out.print("</body></html>");
@@ -43,6 +43,4 @@ public class SupportServlet extends HttpServlet {
         out.print("</body></html>");
 
     }
-
-
 }
